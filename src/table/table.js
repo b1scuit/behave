@@ -4,7 +4,7 @@ import './table.css';
 
 function Table(props){
     return(
-        <table class={props.class + " table table-bordered"}>
+        <table className={props.class + " table table-bordered"}>
             <thead>
                 <tr>
                     <th scope="col">#</th>
@@ -17,10 +17,10 @@ function Table(props){
             </thead>
             <tbody>
                 <Row scope="1" cells="4" />
-                <Row scope="1" cells="4" />
-                <Row scope="1" cells="4" />
-                <Row scope="1" cells="4" />
-                <Row scope="1" cells="4" />
+                <Row scope="2" cells="4" />
+                <Row scope="3" cells="4" />
+                <Row scope="4" cells="4" />
+                <Row scope="5" cells="4" />
             </tbody>
         </table>
     );

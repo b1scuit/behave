@@ -6,7 +6,7 @@ function Row(props) {
     const items = [];
 
     for(let i = 0; i<= props.cells; i++) {
-        items.push(<Cell value={i} />)
+        items.push(<Cell key={i} value={i} />)
     }
 
     return(
